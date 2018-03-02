@@ -463,7 +463,7 @@ int main() {
 	process *pro;
 	pro = (process*)malloc(sizeof(process));
 	pro->next = NULL;
-	while (s!='-')
+	while (s!='0')
 	{
 		cout << "**********分页存储管理系统模型**********" << endl;
 		cout << "*        1.创建程序                    *" << endl;
